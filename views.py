@@ -16,9 +16,9 @@ api_info = ""
 api_info += '[인헌고 알리미 정보]\n'
 api_info += '급식을 알려드립니다.\n'
 api_info += '2017년 11월 2일 V1.0.0\n'
-api_info += '개발자 : 인헌고등학교 10810 성민규\n'
-api_info += '자율동아리 WH0a 부장\n'
-api_info += '후원 받습니다'
+api_info += '개발자 : \n'
+api_info += '자율동아리\n'
+api_info += '후원'
 
 def lunch(l_date):
     l_date = lunch_match(l_date)
