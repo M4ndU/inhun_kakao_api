@@ -15,4 +15,4 @@ inhun_kakao_api
 
 실행
 -------
-python3 manage.py runserver [ip]:[port]
+> python3 manage.py runserver [ip]:[port]
