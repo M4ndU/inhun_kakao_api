@@ -7,7 +7,6 @@ sys.path.insert(0, "/home/mandu/project/discord_bot/")
 #sys.path.insert(0, "inhun_discord_bot 경로")
 from scrapture import *
 from datematch import *
-#
 
 
 #api info
@@ -57,6 +56,8 @@ def answer(request):
     local_date1 = dt1.strftime("%m%d")
     local_date2 = dt2.strftime("%m%d")
 
+    print(datacontent)
+    
     if datacontent == '오늘 급식':
         meal_date = int(local_date1)
         l_l = lunch(meal_date)
