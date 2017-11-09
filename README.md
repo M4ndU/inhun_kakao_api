@@ -11,6 +11,9 @@ inhun_kakao_api
 - __json__ library
 - __datetime__ library
 
+- __inhun_discord_bot/datematch.py__
+- __inhun_discord_bot/scrapture.py__
+
 - - -
 
 실행
