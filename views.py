@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
-from pytz import timezone
 import datetime , json
 import sys
 sys.path.insert(0, "/home/mandu/project/discord_bot/")
