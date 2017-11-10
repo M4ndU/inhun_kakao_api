@@ -20,7 +20,7 @@ api_info += '후원'
 
 def lunch(l_date):
     l_date = lunch_match(l_date)
-    if (lunch != 0 and dinner != 0):
+    if (l_date != 0):
         ll_diet = ""
         ll_diet = get_diet(l_date)
     else:
@@ -29,7 +29,7 @@ def lunch(l_date):
 
 def dinner(d_date):
     d_date = dinner_match(d_date)
-    if (lunch != 0 and dinner != 0):
+    if (d_date != 0):
         dd_diet = ""
         dd_diet = get_diet(d_date)
     else:
